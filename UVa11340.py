@@ -1,4 +1,4 @@
-# não consegui resolver, deu time limit exceded. tentei usando tanto dicionário quanto endereçamento direto, e por incrível que pareca, endereçamento direto é pior que dicionário, por conta da chamada à função ord(). esse artigo fala sobre a entrada ser iso8859-1 e muito grande pra usar um simples input() ou print: https://www.redgreencode.com/solving-uva-11340-in-java/
+# não consegui resolver, deu time limit exceded. tentei usando tanto dicionário quanto endereçamento direto, e por incrível que pareca, medindo tempo com -m cProfile, endereçamento direto é pior que dicionário, por conta da chamada à função ord(). esse artigo fala sobre a entrada ser iso8859-1 e muito grande pra usar um simples input() ou print: https://www.redgreencode.com/solving-uva-11340-in-java/
 
 import io
 from sys import stdin, stdout
