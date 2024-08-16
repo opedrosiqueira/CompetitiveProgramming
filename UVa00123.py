@@ -11,10 +11,10 @@ count = 0  # como títulos com mesmas palavras-chaves são ordenados por quem ve
 for line in stdin:
     start = 0
     line = line.lower()
-    for end in range(len(line)):
-        if line[end].isspace():
-            if line[start].isalpha() and line[start:end] not in ignore:
-                list.append((line[start:end], count, line[0:start] + line[start:end].upper() + line[end:]))
+    for end in range(len(line)): # para cada índice de line
+        if line[end].isspace(): # se for espaço, então terminou a palavra atual
+            if line[start].isalpha() and line[start:end] not in ignore: # se a palavra atual não estiver nas ignoradas
+                list.append((line[start:end], count, line[0:start] + line[start:end].upper() + line[end:])) # adiciona essa frase na lista, com a palavra atual em maiúsculo
                 count += 1
             start = end + 1
 
