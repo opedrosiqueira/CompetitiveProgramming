@@ -1,0 +1,76 @@
+commit c1f86140e8bb04e04490ebf9036e3dd05059c457
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Sat Nov 9 12:18:09 2024 -0400
+
+            new file:   UVa11942.in
+            new file:   UVa11942.out
+            new file:   UVa11942.py
+            new file:   UVa12015.in
+            new file:   UVa12015.out
+            new file:   UVa12015.py
+
+commit 7e9a3e168cdd7351316093f536b230750de33ff6
+Author: opedrosiqueira <pedro.siqueira@ifms.edu.br>
+Date:   Sat Oct 26 17:10:22 2024 -0400
+
+    up
+
+commit b097b91a5913b7dd6a66078f5d54f884f0a02abf
+Author: opedrosiqueira <pedro.siqueira@ifms.edu.br>
+Date:   Sat Oct 26 08:29:46 2024 -0400
+
+    up
+
+commit c746d8cf6afbac174c8f51c02e4da17441692529
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Mon Sep 23 15:02:26 2024 -0400
+
+    up
+
+commit b8b84fa07e34b0f0eefaa029edb06b894a4ad3f8
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Thu Sep 19 22:17:15 2024 -0400
+
+    up
+
+commit 67f8cf7af2c64d79c4f4f5b2e4399815047307e9
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Sat Sep 14 17:37:50 2024 -0400
+
+    siqueira-pc
+
+commit 21265d4075948b98bddfdb963465fe835f6ba33c
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Thu Sep 12 14:07:43 2024 -0400
+
+    siqueira-pc
+
+commit 28d569b49dca331aee15bbca66f1ad78d044dbca
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Sat Aug 17 16:39:21 2024 -0400
+
+    UVa00483 in/out
+
+commit 294bc262233b617bb8259fd7f9dfeefff4d82832
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Fri Aug 16 16:59:31 2024 -0400
+
+    siqueira-pc
+
+commit 08a850fe3078b8981be1789054e150d9d7e78e94
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Fri Aug 16 16:53:28 2024 -0400
+
+    siqueira-pc
+
+commit bbf9bbb2114cb90b7647f015e9bb5f8aeab35cf1
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Tue Aug 13 13:40:12 2024 -0400
+
+    siqueira-pc
+
+commit eb8d05745e89fcaf3486c66dc1b8428e4fb2706d
+Author: opedrosiqueira <opedrosiqueira@gmail.com>
+Date:   Sat Aug 10 20:45:13 2024 -0400
+
+    first commit
