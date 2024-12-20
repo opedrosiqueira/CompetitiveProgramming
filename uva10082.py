@@ -1,5 +1,6 @@
 import sys
 
+
 def getCorrect(c):
     if c == '1': return '`'
     if c == '2': return '1'
@@ -46,6 +47,7 @@ def getCorrect(c):
     if c == '/': return '.'
     return c
 
+
 for line in sys.stdin:
     for c in line:
-        print(getCorrect(c),end='')
+        print(getCorrect(c), end="")
