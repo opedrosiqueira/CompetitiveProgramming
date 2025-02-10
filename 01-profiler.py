@@ -11,6 +11,7 @@ import sys
 
 module_name = sys.argv[1]
 function_name = sys.argv[2]
+verbose = sys.argv[3] if len(sys.argv) > 3 else None
 
 try:
     # Dynamically import the module
@@ -37,5 +38,6 @@ total_time = stats.total_tt
 filename = module_name + ".prof"
 with open(filename, "a") as f:
     f.write(f"\n{total_time:.6f};{module_name}.{function_name}")
-    # stats = pstats.Stats(profiler, stream=f)
-    # stats.strip_dirs().sort_stats('cumulative').print_stats()
+    if verbose == "verbose":
+        stats = pstats.Stats(profiler, stream=f)
+        stats.strip_dirs().sort_stats("cumulative").print_stats()
