@@ -15,4 +15,4 @@ while True:
         if int(stdin.readline().strip()) in jack:
             c += 1
 
-    stdout.write(c)
+    stdout.write(str(c) + "\n")
