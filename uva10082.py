@@ -1,6 +1,5 @@
 import sys
 
-
 def getCorrect(c):
     if c == '1': return '`'
     if c == '2': return '1'
