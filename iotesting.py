@@ -8,7 +8,7 @@ def a0():
     output = []
     for line in r.splitlines():
         output.append(line)
-    os.write(1, "\n".join(output))
+    os.write(1, b"\n".join(output))
 
 
 def a1():
@@ -52,3 +52,12 @@ def a6():
     for line in data:
         results.append(line)
     sys.stdout.buffer.write(b"".join(results))
+
+
+def a7():
+    while True:
+        try:
+            line = input()
+            print(line)
+        except EOFError:
+            break

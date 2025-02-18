@@ -1,4 +1,6 @@
-# Esse artigo fala sobre a entrada ser iso8859-1 (latin1) e muito grande pra usar um simples `input()` ou `print()`: https://www.redgreencode.com/solving-uva-11340-in-java/. O udebug diz que apenas nos artigos há caracteres binários (não ASCII), na tabela não há.
+# Esse artigo fala sobre a entrada ser iso8859-1 (latin1): https://www.redgreencode.com/solving-uva-11340-in-java/. O udebug diz que apenas nos artigos há caracteres binários (não ASCII), na tabela não há.
+#
+# Como a entrada é muito grande, parece que `input()`/`print()` não são suficientemente rápidos. A solução pode ser usar `sys.stdin.buffer` e `sys.stdout.buffer` para ler e escrever bytes, e `io.TextIOWrapper` para converter bytes em strings.
 #
 # Tentei usando tanto dicionário quanto endereçamento direto, e por incrível que pareça, medindo tempo com `-m cProfile`, endereçamento direto é pior que dicionário, por conta da chamada à função `ord()`.
 
@@ -124,4 +126,4 @@ def alternativa3():
 
 
 if __name__ == "__main__":
-    alternativa0()
+    alternativa1()
